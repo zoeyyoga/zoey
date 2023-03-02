@@ -1,0 +1,208 @@
+#about {
+  .sub-visual {
+    width: 100%;
+    height: 230px;
+    background: no-repeat center / cover url("../images/about/main_bg.jpg");
+  }
+
+  .main-content {
+    max-width: 1240px;
+    padding: 140px 40px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "image_01 title"
+      "image_01 detail"
+      "image_01 image_02";
+    color: var(--color-font-text);
+
+    .title {
+      grid-area: title;
+      border-top: 1px solid #000;
+      font-size: var(--font-lg);
+      padding-top: 50px;
+
+      span {
+        display: block;
+        font-size: 26px;
+        font-weight: 400;
+      }
+    }
+
+    .detail {
+      grid-area: detail;
+      padding-top: 50px;
+      display: flex;
+
+      & > ul {
+        width: 50%;
+        font-weight: 600;
+        font-size: var(--font-sx);
+
+        & > li {
+          margin-bottom: 1.3em;
+        }
+
+        ul li {
+          font-weight: 400;
+        }
+
+        span {
+          padding-left: 24px;
+          display: block;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .image_01 {
+      grid-area: image_01;
+      margin-right: 20px;
+    }
+
+    .image_02 {
+      grid-area: image_02;
+      justify-self: end;
+      padding-top: 72px;
+    }
+  }
+
+  .history-slider {
+    margin-top: 140px;
+    padding: 100px 0 140px;
+    background: no-repeat left 440px / 930px
+        url("../images/about/history_bg.jpg"),
+      #fff;
+
+    .flicking-camera .blank {
+      width: calc((100vw - 1240px) / 2);
+    }
+
+    .flicking-camera > div:not(.blank) {
+      padding-right: 50px;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        width: 100%;
+        border: 0.5px solid #7a6d5a;
+        content: "";
+      }
+
+      &.last-list {
+        padding-right: 0;
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    h2 {
+      position: relative;
+      width: 68px;
+      z-index: 5;
+      padding: 2px 0 4px;
+      border-radius: 20px;
+      background-color: var(--color-font-text);
+      font-size: var(--font-sm);
+      font-weight: 400;
+      text-align: center;
+      color: #fff;
+    }
+    ul {
+      margin-top: 30px;
+    }
+    li {
+      font-size: var(--font-sx);
+      color: var(--color-font-text);
+      line-height: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    .sub-visual {
+      margin-top: 70px;
+      height: 200px;
+      background: no-repeat center / cover url("../images/about/main_bg_mo.jpg");
+    }
+
+    .main-content {
+      width: 100%;
+      padding: 60px 20px 0;
+      box-sizing: border-box;
+
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "title  image_01"
+        "image_02 image_02"
+        "detail detail";
+
+      .title {
+        padding-top: 0;
+        border-top: 0;
+        font-size: 26px;
+
+        span {
+          margin-top: 10px;
+          font-size: var(--font-sm);
+        }
+      }
+      .image_01 {
+        margin-right: 0;
+        min-width: 184px;
+      }
+      .image_02 {
+        max-width: 300px;
+        justify-self: start;
+        padding-top: 30px;
+      }
+      .detail {
+        padding-top: 30px;
+        display: block;
+
+        & > ul {
+          width: auto;
+        }
+
+        .career {
+          margin-top: 30px;
+          padding-top: 30px;
+          border-top: 1px solid #bababa;
+        }
+      }
+    }
+
+    .history-slider {
+      position: relative;
+      margin-top: 60px;
+      padding: 52px 0 126px;
+      background-position: left bottom;
+      background-size: 100vw;
+
+      &::after {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--color-background-main);
+        content: "";
+      }
+
+      .flicking-camera {
+        .last-list {
+          max-width: calc(100vw - 40px);
+        }
+        .blank {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

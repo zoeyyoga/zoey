@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `조이요가 스튜디오`,
+    description: `프라이빗한 공간에서 온전히 나의 몸과 마음을 그리고 호흡을 바라보는 시간`,
+    author: `@zoeyyoga`,
+    siteUrl: `https://zoeyyoga.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -32,12 +32,10 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favi-icon.png`,
       },
     },
+    `gatsby-plugin-sass`,
   ],
-}
+};
