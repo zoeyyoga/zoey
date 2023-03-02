@@ -13,6 +13,8 @@ module.exports = {
     description: `프라이빗한 공간에서 온전히 나의 몸과 마음을 그리고 호흡을 바라보는 시간`,
     author: `@zoeyyoga`,
     siteUrl: `https://zoeyyoga.com/`,
+
+    image: `/main_visual_logo.png`,
   },
   plugins: [
     `gatsby-plugin-image`,
