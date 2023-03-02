@@ -19,6 +19,12 @@
     align-items: center;
     justify-content: space-between;
 
+    h1 {
+      div {
+        width: 76px;
+      }
+    }
+
     a {
       display: block;
       margin-top: -3px;
@@ -53,7 +59,9 @@
     header {
       padding: 0 20px;
       h1 {
-        width: 90px;
+        div {
+          width: 90px;
+        }
       }
       .pc {
         display: none;

@@ -46,13 +46,12 @@ const Header = () => {
               src="../images/logo.png"
               loading="lazy"
               placeholder="none"
-              width={76}
               quality={95}
               formats={["auto", "webp", "avif"]}
               alt="조이요가 스튜디오 로고"
-              class="pc"
+              className="pc"
             />
-            <span class="mo">
+            <span className="mo">
               <StaticImage
                 src="../images/logo_mo.png"
                 loading="lazy"
