@@ -59,8 +59,6 @@ const Header = () => {
                 loading="lazy"
                 placeholder="none"
                 quality={95}
-                width={90}
-                height={13.3}
                 formats={["auto", "webp", "avif"]}
                 alt="조이요가 스튜디오 로고"
               />
