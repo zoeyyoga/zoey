@@ -47,7 +47,11 @@ const IndexPage = () => {
                 바라보는 시간
               </p>
               <div className="links-wrap">
-                <a href="https://open.kakao.com/o/sZQaTLAc" target="_blank">
+                <a
+                  href="https://open.kakao.com/o/sZQaTLAc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="mo">
                     <StaticImage
                       src="../images/main/kakao_ico.png"
@@ -63,6 +67,7 @@ const IndexPage = () => {
                 <a
                   href="https://www.instagram.com/zoeyyogastudio/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="mo">
                     <StaticImage
@@ -76,7 +81,11 @@ const IndexPage = () => {
                   </i>
                   <span>인스타그램</span>
                 </a>
-                <a href="https://youtube.com/@zoeyjoytv" target="_blank">
+                <a
+                  href="https://youtube.com/@zoeyjoytv"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="mo">
                     <StaticImage
                       src="../images/main/youtube_ico.png"
@@ -210,7 +219,11 @@ const IndexPage = () => {
               <span>-</span>
             </li>
             <li>
-              <a href="https://open.kakao.com/o/sZQaTLAc" target="_blank">
+              <a
+                href="https://open.kakao.com/o/sZQaTLAc"
+                target="_blank"
+                rel="noreferrer"
+              >
                 카카오 플러스 친구로 문의하기
               </a>
               <span>-</span>
@@ -219,25 +232,38 @@ const IndexPage = () => {
               <a
                 href="https://www.instagram.com/zoeyyogastudio/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Instagram
               </a>
               <span>-</span>
             </li>
             <li>
-              <a href="https://youtube.com/@zoeyjoytv" target="_blank">
+              <a
+                href="https://youtube.com/@zoeyjoytv"
+                target="_blank"
+                rel="noreferrer"
+              >
                 YouTube
               </a>
               <span>-</span>
             </li>
             <li>
-              <a href="mailto:didwldls0229@gmail.com" target="_blank">
+              <a
+                href="mailto:didwldls0229@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 didwldls0229@gmail.com
               </a>
               <span>-</span>
             </li>
             <li>
-              <a href="https://naver.me/GD5yIAlY" target="_blank">
+              <a
+                href="https://naver.me/GD5yIAlY"
+                target="_blank"
+                rel="noreferrer"
+              >
                 서울시 용산구 한남대로60길 한남리첸시아
               </a>
             </li>
