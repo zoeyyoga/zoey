@@ -48,42 +48,45 @@ const IndexPage = () => {
               </p>
               <div className="links-wrap">
                 <a href="https://open.kakao.com/o/sZQaTLAc" target="_blank">
-                  <StaticImage
-                    src="../images/main/kakao_ico.png"
-                    loading="lazy"
-                    placeholder="blurred"
-                    quality={95}
-                    formats={["auto", "webp", "avif"]}
-                    alt="조이요가 카카오톡 문의"
-                    className="mo"
-                  />
+                  <i className="mo">
+                    <StaticImage
+                      src="../images/main/kakao_ico.png"
+                      loading="lazy"
+                      placeholder="blurred"
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="조이요가 카카오톡 문의"
+                    />
+                  </i>
                   <span>카카오톡 문의</span>
                 </a>
                 <a
                   href="https://www.instagram.com/zoeyyogastudio/"
                   target="_blank"
                 >
-                  <StaticImage
-                    src="../images/main/instagram_ico.png"
-                    loading="lazy"
-                    placeholder="blurred"
-                    quality={95}
-                    formats={["auto", "webp", "avif"]}
-                    alt="조이요가 인스타그램"
-                    className="mo"
-                  />
+                  <i className="mo">
+                    <StaticImage
+                      src="../images/main/instagram_ico.png"
+                      loading="lazy"
+                      placeholder="blurred"
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="조이요가 인스타그램"
+                    />
+                  </i>
                   <span>인스타그램</span>
                 </a>
                 <a href="https://youtube.com/@zoeyjoytv" target="_blank">
-                  <StaticImage
-                    src="../images/main/youtube_ico.png"
-                    loading="lazy"
-                    placeholder="blurred"
-                    quality={95}
-                    formats={["auto", "webp", "avif"]}
-                    alt="조이요가 유튜브"
-                    className="mo"
-                  />
+                  <i className="mo">
+                    <StaticImage
+                      src="../images/main/youtube_ico.png"
+                      loading="lazy"
+                      placeholder="blurred"
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      alt="조이요가 유튜브"
+                    />
+                  </i>
                   <span>유튜브</span>
                 </a>
               </div>

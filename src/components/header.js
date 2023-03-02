@@ -41,7 +41,7 @@ const Header = () => {
     <div className={isActive ? "header_wrap active" : "header_wrap"}>
       <header>
         <h1>
-          <a href="/">
+          <Link to="/">
             <StaticImage
               src="../images/logo.png"
               loading="lazy"
@@ -52,16 +52,17 @@ const Header = () => {
               alt="조이요가 스튜디오 로고"
               class="pc"
             />
-            <StaticImage
-              src="../images/logo_mo.png"
-              loading="lazy"
-              placeholder="none"
-              quality={95}
-              formats={["auto", "webp", "avif"]}
-              alt="조이요가 스튜디오 로고"
-              class="mo"
-            />
-          </a>
+            <span class="mo">
+              <StaticImage
+                src="../images/logo_mo.png"
+                loading="lazy"
+                placeholder="none"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                alt="조이요가 스튜디오 로고"
+              />
+            </span>
+          </Link>
         </h1>
 
         <div>

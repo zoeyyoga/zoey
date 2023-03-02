@@ -126,8 +126,9 @@
 
 @media screen and (max-width: 768px) {
   #about {
+    padding-top: 70px;
+
     .sub-visual {
-      margin-top: 70px;
       height: 200px;
       background: no-repeat center / cover url("../images/about/main_bg_mo.jpg");
     }

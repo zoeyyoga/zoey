@@ -52,18 +52,19 @@
 
     header {
       padding: 0 20px;
-
       h1 {
         width: 90px;
-      }
-      .mo {
-        display: block;
       }
       .pc {
         display: none;
       }
       a {
         margin-top: 0px;
+
+        span > div {
+          position: relative;
+          top: 16px;
+        }
       }
     }
 
