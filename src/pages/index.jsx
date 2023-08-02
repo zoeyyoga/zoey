@@ -82,7 +82,7 @@ const IndexPage = () => {
                   <span>인스타그램</span>
                 </a>
                 <a
-                  href="https://youtube.com/@zoeyjoytv"
+                  href="https://youtube.com/@ZoeyYoga"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -240,7 +240,7 @@ const IndexPage = () => {
             </li>
             <li>
               <a
-                href="https://youtube.com/@zoeyjoytv"
+                href="https://youtube.com/@ZoeyYoga"
                 target="_blank"
                 rel="noreferrer"
               >
